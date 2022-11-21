@@ -2,6 +2,8 @@
 
 A website mini-game using Next.js along with PokeAPI for fetching Pokémon data
 
+![Screenshots](https://i.imgur.com/Y4cwaJq.png)
+
 ## Public website
 
 The game is available at the following url using Vercel: [Pokemon TeamFight - Vercel](https://pokemonfight-nextjs.vercel.app/home)
