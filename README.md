@@ -2,6 +2,10 @@
 
 A website mini-game using Next.js along with PokeAPI for fetching Pokémon data
 
+## Public website
+
+The game is available at the following url using Vercel: [Pokemon TeamFight - Vercel](https://pokemonfight-nextjs.vercel.app/home)
+
 ## Getting Started
 
 To run the development server:
@@ -12,9 +16,9 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-Hot refresh is enabled.
-Every page will be static rendered at reload.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.  
+Hot refresh is enabled.  
+Every page will be static rendered at reload.  
 
 ---
 
@@ -40,13 +44,22 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You must create a team of six pokemons, and the team must have a name as well.
 
-After that, the route "TEAM FIGHTING" will be enabled on the homepage.
+After that, the route **TEAM FIGHTING** will be enabled on the homepage.
 
 By clicking that, you will be transported to the `/team/fight` route, showing the summary of the two teams.
 
-The button "THE BATTLE BEGINS" will start a Pokemon battle between your team and a randomly generated team, for the other side.
+The button **THE BATTLE BEGINS** will start a Pokemon battle between your team and a randomly generated team, for the other side.
 
 The team with more base experience will win the match.
+
+## Avilable routes
+
+* `/` - redirect to `/home`  
+* `/home` - the hub for going at `/team/create` and `/team/fight`  
+* `/team` - redirect to `/home`  
+* `/team/create` - page where you can create your team of six pokemons  
+* `/team/fight` - page where you can let your pokemon fight against a random-generated team (available when the player team is created. A fallback to `/home` is applied)  
+* `other routes` - 404 page  
 
 ## Learn More
 
