@@ -1,0 +1,127 @@
+.baseSmallType {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+}
+
+.baseSmallType.grass {
+  background-color: #33a263;
+  border-color: transparent #006f30 #006f30 transparent;
+}
+
+.baseSmallType.poison {
+  color: var(--softWhite);
+  background-color: #5a5b74;
+  border-color: transparent #48495d #48495d transparent;
+}
+
+.baseSmallType.normal {
+  background-color: #e8c7c8;
+  border-color: transparent #ba9fa0 #ba9fa0 transparent;
+}
+
+.baseSmallType.fighting {
+  color: var(--softWhite);
+  background-color: #574338;
+  border-color: transparent #46362d #46362d transparent;
+}
+
+.baseSmallType.flying {
+  background-color: #7ec0ee;
+  border-color: transparent #659abe #659abe transparent;
+}
+
+.baseSmallType.ground {
+  color: var(--softWhite);
+  background-color: #be9676;
+  border-color: transparent #98785e #98785e transparent;
+}
+
+.baseSmallType.rock {
+  color: var(--softWhite);
+  background-color: #817669;
+  border-color: transparent #675e54 #675e54 transparent;
+}
+
+.baseSmallType.bug {
+  background-color: #a9b81f;
+  border-color: transparent #859210 #859210 transparent;
+}
+
+.baseSmallType.ghost {
+  color: var(--softWhite);
+  background-color: #452068;
+  border-color: transparent #371a53 #371a53 transparent;
+}
+
+.baseSmallType.steel {
+  color: var(--softWhite);
+  background-color: #8d9296;
+  border-color: transparent #717578 #717578 transparent;
+}
+
+.baseSmallType.fire {
+  color: var(--softWhite);
+  background-color: #f44d2b;
+  border-color: transparent #c33e22 #c33e22 transparent;
+}
+
+.baseSmallType.water {
+  background-color: #7bc7ce;
+  border-color: transparent #629fa5 #629fa5 transparent;
+}
+
+.baseSmallType.electric {
+  background-color: #fcdc5c;
+  border-color: transparent #cab04a #cab04a transparent;
+}
+
+.baseSmallType.psychic {
+  color: var(--softWhite);
+  background-color: #82037e;
+  border-color: transparent #680265 #680265 transparent;
+}
+
+.baseSmallType.ice {
+  background-color: #d1edf2;
+  border-color: transparent #a7bec2 #a7bec2 transparent;
+}
+
+.baseSmallType.dragon {
+  color: var(--softWhite);
+  background-color: #9a5abf;
+  border-color: transparent #7b4899 #7b4899 transparent;
+}
+
+.baseSmallType.dark {
+  color: var(--softWhite);
+  background-color: #414143;
+  border-color: transparent #343436 #343436 transparent;
+}
+
+.baseSmallType.fairy {
+  color: var(--softWhite);
+  background-color: #d66a8a;
+  border-color: transparent #ab556e #ab556e transparent;
+}
+
+.baseSmallType.unknown {
+  background-color: #2ca180;
+  border-color: transparent #238166 #238166 transparent;
+}
+
+.baseSmallType.shadow {
+  color: var(--softWhite);
+  background-color: #333333;
+  border-color: transparent #181818 #181818 transparent;
+}
+
+.baseSmallType small {
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: capitalize;
+}

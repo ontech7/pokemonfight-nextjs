@@ -1,0 +1,51 @@
+.whiteColor {
+  color: var(--softWhite);
+}
+
+.background {
+  height: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/fight/background.svg");
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 1440px;
+  height: inherit;
+  margin: 0 auto;
+  padding: 25px 20px;
+}
+
+.header {
+  width: 100%;
+}
+
+.header h1 {
+  text-align: center;
+}
+
+.headerLinks {
+  position: absolute;
+  display: flex;
+  gap: 20px;
+}
+
+.backButtonState {
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+
+.main {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}

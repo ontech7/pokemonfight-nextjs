@@ -1,0 +1,17 @@
+.summaryBox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.summaryBox.yourTeam {
+  background-color: var(--orange);
+  color: var(--softWhite);
+}
+
+.summaryBox.enemyTeam {
+  background-color: var(--lightGreen);
+  color: var(--softBlack);
+}

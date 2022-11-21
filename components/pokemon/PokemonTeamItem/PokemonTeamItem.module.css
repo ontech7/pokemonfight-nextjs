@@ -1,0 +1,49 @@
+.pokemonTeamItem {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: var(--softWhite);
+  border-radius: 20px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.pokemonTeamItem__stats {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-grow: 1;
+}
+.pokemonTeamItem__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pokemonTeamItem__name {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.pokemonTeamItem__types,
+.pokemonTeamItem__abilities {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+}
+.pokemonTeamItem__abilities {
+  width: 200px;
+}
+.pokemonTeamItem__abilities .pokemonTeamItem__abilities_slot {
+  width: 95px;
+}
+
+.removeFromTeam {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+}

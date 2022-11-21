@@ -1,0 +1,121 @@
+.pokemonDetails {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 30px;
+  background-color: var(--lightGreen);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 250ms ease, box-shadow 250ms ease, transform 250ms ease;
+}
+
+.pokemonDetails:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: translateY(-4px);
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  height: 220px;
+  color: var(--softWhite);
+}
+
+.loading p {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.addToTeam {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+}
+
+.statsAndAbilities {
+  display: flex;
+  gap: 20px;
+}
+
+.statsWrapper {
+  position: relative;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.statsWrapper__info {
+  position: relative;
+  z-index: 2;
+  display: inline-flex;
+  gap: 10px;
+  padding: 15px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: var(--gold);
+}
+
+.statsWrapper__bottomBar {
+  position: absolute;
+  z-index: 1;
+  background-color: var(--softBlack);
+  width: 85%;
+  height: 40px;
+  bottom: 10px;
+  right: 0;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 25px;
+}
+
+.statsWrapper__bottomBar::before {
+  content: "";
+  border: 20px solid;
+  border-bottom-color: var(--softBlack);
+  border-right-color: var(--softBlack);
+  border-left-color: transparent;
+  border-top-color: transparent;
+  position: absolute;
+  left: -40px;
+}
+
+.statsWrapper .statsWrapper__column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.statsWrapper .statsWrapper__name {
+  text-transform: capitalize;
+}
+
+.abilitiesWrapper {
+  display: inline-flex;
+  height: 100px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: var(--gold);
+}
+
+.abilities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  row-gap: 5px;
+  max-width: 250px;
+}
+
+.abilitySlot {
+  width: 120px;
+}

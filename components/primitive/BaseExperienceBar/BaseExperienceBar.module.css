@@ -1,0 +1,22 @@
+.baseExperience {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  color: var(--softWhite);
+}
+.baseExperience .baseExperience__title {
+  display: inline-block;
+  padding: 3px;
+  background-color: var(--softBlack);
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.baseExperience .baseExperience__exp {
+  display: inline-block;
+  padding: 1px 25px;
+  background-color: var(--deepSkyBlue);
+  border: 2px solid var(--softBlack);
+  border-left-width: 0;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}

@@ -1,0 +1,131 @@
+.background {
+  height: inherit;
+  background-color: var(--orange);
+}
+
+.container {
+  position: relative;
+  max-width: 1440px;
+  height: inherit;
+  margin: 0 auto;
+  padding: 25px 20px;
+}
+
+.main {
+  height: inherit;
+  display: flex;
+}
+
+.whiteLabel {
+  color: var(--softWhite);
+}
+
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.messageDescription {
+  padding: 10px;
+  background-color: var(--softBlack);
+  color: var(--softWhite);
+  border-radius: 10px;
+}
+
+.leftBox {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--lightGreen);
+  margin-top: -25px;
+  margin-bottom: -25px;
+  height: calc(100% + 50px);
+  padding: 25px 30px;
+  min-width: 470px;
+}
+
+.pokemonTeamList {
+  padding-right: 10px;
+  margin-right: -10px;
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+/* width */
+.pokemonTeamList::-webkit-scrollbar {
+  width: 10px;
+  margin-left: 10px;
+}
+
+/* Track */
+.pokemonTeamList::-webkit-scrollbar-track {
+  background-color: var(--iceBlue);
+  border-radius: 5px;
+}
+
+/* Handle */
+.pokemonTeamList::-webkit-scrollbar-thumb {
+  background-color: var(--softBlack);
+  border-radius: 5px;
+}
+
+.buttonsWrapper {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.rightBox {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 0 50px;
+}
+
+.rightBox h1 {
+  color: var(--softWhite);
+  text-align: center;
+}
+
+.pokemonSearchList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.pokemonSearchList button {
+  margin-top: 10px;
+}
+
+.pokemonDetailsWrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.pokemonNotFound {
+  height: 220px;
+  display: flex;
+  align-items: center;
+  color: var(--softWhite);
+}
+
+.pokemonNotFound p {
+  text-align: center;
+}
+
+.gottaCatchEmAllWrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.gottaCatchEmAllWrapper p {
+  color: var(--softWhite);
+  text-align: center;
+}

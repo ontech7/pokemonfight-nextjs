@@ -1,0 +1,23 @@
+@keyframes loadingRotation {
+  0% {
+    transform: rotate(0);
+  }
+  80% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loadingSpinnerWrapper {
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingSpinnerWrapper .loadingSpinner {
+  opacity: 0.75;
+  animation: loadingRotation 1s ease-in-out infinite;
+}

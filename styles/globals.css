@@ -1,9 +1,35 @@
+:root {
+  --orange: #d15607;
+  --lightGreen: #07d1bb;
+  --yellow: #ffcb05;
+  --softWhite: #fef5fa;
+  --softBlack: #333333;
+  --deepSkyBlue: #66aade;
+  --iceBlue: #d1edf2;
+  --gray: #dcd6d9;
+  --gold: #cec785;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  height: 100%;
+  color: var(--softBlack);
+}
+
+#__next {
+  height: 100%;
 }
 
 a {
@@ -11,16 +37,129 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+img {
+  display: block;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+h1,
+h2,
+h3,
+p,
+small {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+h1.medium {
+  font-size: 45px;
+}
+
+h1.small {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+p.medium {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+small {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.verticalBar {
+  width: 1px;
+  height: 30px;
+}
+
+.verticalBar.orange {
+  background-color: var(--orange);
+}
+
+.verticalBar.lightGreen {
+  background-color: var(--lightGreen);
+}
+
+.verticalBar.yellow {
+  background-color: var(--yellow);
+}
+
+.horizontalBar {
+  width: 100px;
+  height: 5px;
+}
+
+.horizontalBar.small {
+  width: 30px;
+  height: 1px;
+}
+
+.horizontalBar.full {
+  width: 100%;
+  height: 3px;
+}
+
+.horizontalBar.orange {
+  background-color: var(--orange);
+}
+
+.horizontalBar.lightGreen {
+  background-color: var(--lightGreen);
+}
+
+.horizontalBar.yellow {
+  background-color: var(--yellow);
+}
+
+/* MARGIN */
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+/* FONT WEIGHT */
+
+.semibold {
+  font-weight: 600;
 }

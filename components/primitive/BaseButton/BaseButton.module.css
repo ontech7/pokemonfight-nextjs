@@ -1,0 +1,33 @@
+.button {
+  font-family: inherit;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 12px 25px;
+}
+
+.button[disabled] {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.button.primary {
+  color: var(--softBlack);
+  background-color: var(--lightGreen);
+}
+
+.button.secondary {
+  color: var(--softWhite);
+  background-color: var(--orange);
+}
+
+.button.tertiary {
+  color: var(--softWhite);
+  background-color: var(--softBlack);
+}
+
+.button.special {
+  background-color: var(--yellow);
+}

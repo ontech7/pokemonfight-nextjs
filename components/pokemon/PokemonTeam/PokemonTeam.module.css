@@ -1,0 +1,48 @@
+.whiteColor {
+  color: var(--softWhite);
+}
+
+.teamWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 325px;
+}
+
+.teamWrapper h3 {
+  text-align: center;
+}
+
+.pokemonTeamWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.baseExperienceWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.baseExperienceWrapper p {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.baseExperience__zoom {
+  zoom: 1.5;
+}
+
+.resultButton {
+  cursor: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.resultButton p {
+  font-size: 25px;
+  font-weight: 600;
+}
