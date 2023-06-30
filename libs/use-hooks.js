@@ -72,7 +72,7 @@ const useMediaQuery = () => {
   }, []);
 
   useEffect(() => {
-    setIsDesktop(windowWidth > 1440);
+    setIsDesktop(windowWidth >= 1440);
   }, [windowWidth]);
 
   return [isDesktop];
