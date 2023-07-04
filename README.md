@@ -6,7 +6,7 @@ A website mini-game using Next.js along with PokeAPI for fetching Pokémon data
 
 ## Public website
 
-The game is available at the following url using Vercel: [Pokemon TeamFight - Vercel](https://pokemonfight-nextjs.vercel.app/home)
+The game is available at the following url using Netlify: [Pokemon TeamFight - Vercel](https://pokemonfight-nextjs.netlify.app/home)
 
 ## Getting Started
 
@@ -69,4 +69,4 @@ To learn more about this project, take a look at the following resources:
 
 - [Figma Draft](https://www.figma.com/file/KqeyKRho3VP7yG6OXProON/Pokemon-Teamfight---Next.js?node-id=6%3A340&t=tQMEa62DopFgfc2u-1) - UI/UX Design
 - [Next.js](https://nextjs.org/) - learn about Next.js.
-- [Vercel](https://vercel.com/) - explore Vercel for serverless deployments.
+- [Netlify](https://netlify.com/) - explore Netlify for serverless deployments.
